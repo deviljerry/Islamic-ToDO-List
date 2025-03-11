@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prayer and Good Deeds Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Prayer and Good Deeds Tracker</h1>
+    <h2>🌟 Let's make our Ramadan with positive impact! 🌟</h2>
+    <input type="text" id="taskInput" placeholder="Add your task here...">
+    <button onclick="addTask()">Add Task</button>
+
+    <h2>Tasks to Do</h2>
+    <ul id="taskList"></ul>
+
+    <h2>Select Day to Record</h2>
+    <select id="daySelector" onchange="updateDayRecord()">
+        <!-- Dropdown will be filled dynamically -->
+    </select>
+
+    <h2>Record for Selected Day</h2>
+    <div id="recordContainer"></div>
+
+    <div class="credit">
+        <p>Made by Qasim. Remember me and my family in your prayers.</p>
+    </div>
+</div>
+
+<script src="script.js">
+</script>
+
+</body>
+</html>
