@@ -14,7 +14,6 @@ The **Prayer and Good Deeds Tracker** is a simple web-based application designed
 ## 🚀 Live Demo  
 🎯 **Try the app live here:** [Prayer & Good Deeds Tracker](https://deviljerry.github.io/Islamic-ToDO-List/)  
 
-*(Replace `https://your-live-demo-link.com` with your actual deployed URL, e.g., GitHub Pages, Vercel, Netlify.)*
 
 ---
 
